@@ -1,6 +1,6 @@
-# 💰 SpendWise – Personal Expense Tracker
+# 💰 ExpenseEASE – Personal Expense Tracker
 
-SpendWise is a beginner-friendly command-line application developed using **C++17** to manage personal expenses and monthly budgets.
+ExpenseEASE is a beginner-friendly command-line application developed using **C++17** to manage personal expenses and monthly budgets.
 
 It allows users to record daily expenses, manage spending limits, search transactions and view basic financial reports. The application uses file handling to store data permanently, so saved records remain available after restarting the program.
 
@@ -95,15 +95,15 @@ Data is automatically loaded when the application starts and saved whenever chan
 ### Linux / Ubuntu
 
 ```bash
-g++ -std=c++17 "Expense Tracker.cpp" -o expense_tracker
+g++ -std=c++17 "Expense_Tracker.cpp" -o expense_tracker
 ./expense_tracker
 ```
 
 ### Windows
 
 ```bash
-g++ -std=c++17 -Wall -Wextra "Expense Tracker.cpp" -o spendwise.exe
-spendwise.exe
+g++ -std=c++17 -Wall -Wextra Expense_Tracker.cpp -o expense_tracker
+./expense_tracker
 ```
 
 ---
